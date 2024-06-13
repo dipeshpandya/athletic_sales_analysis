@@ -2,24 +2,17 @@
 # Sales Analysis of Athletic Products
 > Analyzing sales data to gain insights into which cities in the U.S. have sold the most athletic wear over two years.
 
-### Contents
-* [Description](#description)
-* [Concepts used](#concepts-used)
-* [Preparing two dataframes](#preparing-dataframe)
-* [Calculating sales in quantitt sold by region, state and city](#sales-in-quantity-sold-by-region-state-and-city)
-* [Calculating sales in dollars by region, state and city](#sales-in-dollars-by-region-state-and-city)
-* [Calculating sales in dollars by retailer, region, state and city](#sales-in-dollars-by-retailer-region-state-and-city)
-* [Calculating sales in dollars by retailer, region, state and city for Women's Athletic Footwear category](#most-womens-athletic-footware-sales-by-retailer)
-    * [Calculating day and week with most sales](#day-and-week-with-most-sales)
-
-
 ## Description
 This Jupyter notebook details analyzes sales data of various retail stores which are selling athletic athletic products, using mostly groupby and pivot table commands
 
-### Concepts used
-1. Combining dataframes and reindexing
-2. Converting date stings to datetype variable
-3. Reshaping data using groupby, pivot table and resample
+### Contents
+* combine two dataframes
+* Show sales in quantitt sold by region, state and city  
+* Show sales in dollars by region, state and city
+* Show sales in dollars by retailer, region, state and city
+* Show sales in dollars by retailer, region, state and city for Women's Athletic Footwear category
+    * Day with most sales
+    * Week with most sales
 
 ### Preparing dataframe
 
